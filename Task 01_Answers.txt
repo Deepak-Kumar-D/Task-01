@@ -1,0 +1,22 @@
+1. The major difference between HTTP/1.1 vs HTTP/2 is that the HTTP/2 loads much faster than the HTTP/1.1.
+
+2. HTTP Versions are:
+i). HTTP/0.9
+ii). HTTP/1.0
+iii). HTTP/1.1
+iv). HTTP/2
+
+3. 5 differences between Browser JS(console) vs Nodejs are:
+i). Nodejs is ran in a standalone application and the other is a browser based console.
+ii). Nodejs doesn't need browser support like Browser JS(console).
+iii). Browser JS(console) is also called as JavaScript-Sandboxed and Nodejs is also called as JavaScript-Stripped.
+iv). Nodejs is easier to execute the code as it doesn't need a separate browser to check the output everytime.
+v). The code to run the Browser JS is "<Script>filename.js</Script>" and whereas as Nodejs is "node filename.js".
+
+
+4. When a URL is typed in the address bar, the following steps are initiated by the browser:
+i). The Domain Name Server(DNS) of the entered URL is checked and is shared with the Internet Service Provider(ISP) and the cache memory is checked if the web address entered has already been ran.
+ii). After that a Transfer Control Protocol(TCP) is initiated between client and server.
+iii). After that an HTTP request is sent to the respected server.
+iv). We receive a response from the server with the HTTP code.
+v). And then the respective rendering engine and the browsing engine will create the webpage and it finally displays the output on the browser.
